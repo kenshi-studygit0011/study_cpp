@@ -3,10 +3,9 @@
 using namespace std;
 
 int main(){
-    string s, t;
+    int s, t;
     cin >> s >> t;
-    cout << s << "\n";
-    cout << t << "\n";
+    cout << s << "," << t << "\n";
 
 
     return 0;

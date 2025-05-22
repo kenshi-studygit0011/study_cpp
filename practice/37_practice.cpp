@@ -18,19 +18,23 @@ int main(){
         cin >> arr[i]; // 直接ユーザー入力を配列に格納する。
     }
 
+    int tmp;
     for(int i = 0; i < size; i++){
-        for(int n = 0; n < size; n++){
+        for(int n = i+1; n < size; n++){
             if(arr[i] > arr[n]){
+                tmp = arr[n];
                 arr[n] = arr[i];
-            } else {
-                break;
+                arr[i] = tmp;
             }
+
         }
     }
 
     for(int i = 0; i < size; i++){
-        cout << arr[i];
+        cout << arr[i] << " ";
     }
+
+    cout << "\n";
 
     delete[] arr; // 動的配列の削除
     return 0;

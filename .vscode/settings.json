@@ -1,7 +1,9 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "01_paiza": "cpp",
+        "iosfwd": "cpp"
     },
     "cSpell.ignoreWords": [
         "Sanakaku",
