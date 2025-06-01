@@ -3,7 +3,8 @@
         "iostream": "cpp",
         "new": "cpp",
         "01_paiza": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "ostream": "cpp"
     },
     "cSpell.ignoreWords": [
         "Sanakaku",
